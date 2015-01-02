@@ -1,6 +1,7 @@
 """
 A sample desktop application using the raumfeld library
 """
+import os
 import time
 import raumfeld
 from PySide import QtCore, QtGui
@@ -86,6 +87,9 @@ class MainWindow(QtGui.QMainWindow):
         self.device_thread = DeviceControlThread()
         self.device_thread.volume_infos.connect(self.volume_infos)
         # the device thread is started as soon as a device is found
+
+        # set the app icon
+        self.setWindowIcon(QtGui.QIcon(os.path.dirname(__file__) + "/raumfeld-48.png"))
 
     def devices_found(self, devices):
         """Is called when the search thread finishes searching
