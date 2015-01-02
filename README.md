@@ -49,3 +49,11 @@ Build the GUI-files:
 Start the application:
 
     python3 main.py
+
+Ubuntu KDE Installation Hint
+----------------------
+You can use the Desktop File provided in the folder "os-integration":
+ - Clone the repository into your home directory in a folder called ".Raumfeld/Raumfeld-Desktop/" 
+ - Follow the instructions for building above
+ - After installation, copy the file "os-integration/Raumfeld Desktop.desktop" to the folder ".local/share/applications/" in your home directory
+ - You should now be able to start Raumfeld-Desktop from your Application Menu in KDE (Maybe you need to re-login) 

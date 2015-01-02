@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Comment=
+Exec=ksystraycmd python3 $HOME/.Raumfeld/Raumfeld-Desktop/main.py
+GenericName=Control Raumfeld Speaker\s
+Icon=$HOME/.Raumfeld/Raumfeld-Desktop/raumfeld_desktop/raumfeld-48.png
+Name=Raumfeld Desktop
+NoDisplay=false
+Path[$e]=$HOME/.Raumfeld/Raumfeld-Desktop/
+StartupNotify=false
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
